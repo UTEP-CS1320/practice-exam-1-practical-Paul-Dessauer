@@ -94,6 +94,7 @@ int main(void) {
     int changer = 0;
     
     for(int i = 0; i < strlen(hex_in); i++){
+      multiplier = 0;
       if (hex_in[changer] == '1')
         multiplier = 1;
       else if (hex_in[changer] == '2')
